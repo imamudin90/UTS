@@ -1,0 +1,272 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>UTS</title>  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+  <script src="./tailwind.config.js"></script>
+    <style type="text/tailwindcss">
+    @layer utilities {
+          nav a {
+            @apply text-nav hover:text-black font-raleway;
+          }
+
+          nav a.active {
+            @apply text-black;
+          }
+
+          .button-primary {
+            @apply bg-[#FF9900] py-[10px] px-[30px] text-white rounded-full hover:bg-secondary;
+          }
+          .bg-gradient{
+            background: rgba(255, 230, 0, 0.1);
+            filter: blur(125px);
+    
+          }
+          .text-gradient {
+            background: linear-gradient(90.01deg, #E18700 35.24%, #FF32AD 66.21%, #0EC5D7 97.18%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;
+          }
+        }
+        </style>
+</head>
+<body class="bg-[#100E0B] text-white text-[14px] font-poppins">
+    <section class="container mx-auto w-[1440px] h-[902px] ">
+        <img src="/assets/Ellipse 67.png" alt="" class="absolute m-0">
+        <section id="top bar" class="container flex mx-auto w-[1440px] justify-between px-20 py-15">
+        <div id="left-side" class="flex gap-5 py-10"  >
+            <img src="/assets/ic_round-table-restaurant.png" alt="">
+            <p class="font-bold">MaemMamam</p>
+            <nav>
+                <ul class="flex gap-10 " >
+                    <li><a href="#" class="active ">Home</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Comunity</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="right-side" class="flex gap-10 py-10">
+            <button class="flex">
+                <img src="/assets/64.png" alt="">
+                <img src="/assets/Group 2061.png" alt="" class="absolute pb-10 pl-3">
+                
+            </button>
+            <button class="flex gap-5">
+                <p>Login</p>
+                <img src="/assets/logib.png" alt="" class="py-2">
+            </button>
+            <a href="#get-started" class="button-primary">Register</a>
+        </div>
+    </section>
+    <div class="justify-center rounded-full bg-[151515] px-10 py-2">
+        <a  href="#get-started" class="rounded-full bg-[151515] px-5 py-2">Restaurant 🍕</a>
+    </div>
+    <div class="relative py-10 text-center text-[64px] font-bold">
+        <h1> Makes You Satisfied With <br> What You <span class="text-[#FF9900]"> Ordered</span></h1>
+    </div>
+    <section class="relative container px-10 mx-auto flex">
+        <div class="relative py-15">
+            <h1 class="text-[#FF9900] py-3"> Best Product</h1>
+            <h1 class="text-[40px] py-3"><span class="font-bold">Hamburger </span><br> Best in The Universe</h1>
+            <p class="py-3">Lörem ipsum ir dons det pren bokstav. Presav velavis dirar. <br> Semidonde pregon. Terasåse seligt samt intrant. </p>
+        <div class="flex gap-10">
+            <a href="#get-started" class="button-primary">Order Now</a>
+            <a href="#get-started" class="rounded-full border-2 py-[12px] px-[30px]">View Menu →</a>
+        </div>
+        <div>
+            <ul class="relative flex gap-5 py-10">
+                <li><img src="/assets/Ellipse 69.png" alt=""></li>
+                <li><img src="/assets/Ellipse 70.png" alt=""></li>
+                <li><img src="/assets/Ellipse 70.png" alt=""></li>
+            </ul>
+        </div>
+        </div>
+        
+        <div class="absolute left-96 -top-20  w-[699px] h-[540px] pb-30 pr-20">
+            <img src="/assets/Group 2071.png" alt="" class="absolute">
+       
+    </div>
+    </section>
+</section>
+    <section class="container mx-auto font-inter py-15 pt-15">
+        <p class="text-center text-[#FFFFFF]">Trusted Companies Woldwide</p>
+        <div class="flex justify-center gap-8 py-10">
+            <img class="w-[165px]"src="/assets/grab.png" alt="">
+            <img class="w-[165px]"src="/assets/gojek.png" alt="">
+            <img class="w-[165px]"src="/assets/shopee.png" alt="">
+            <img class="w-[165px]"src="/assets/buka lapak.png" alt="">
+            <img class="w-[165px]"src="/assets/gojek.png" alt="">
+            <img class="w-[165px]"src="/assets/shopee.png" alt="">
+        </div>
+    </section>
+    <section class="container mx-auto flex gap-8 py-10 w-[1140px] h-[491px]">
+        <div class="py-2">
+            <h1 class="py-2 text-[#FF9900]">About Us</h1>
+            <h1 class="py-2 text-[40px] font-bold">MaemMamam</h1>
+            <p class="py-2 text-[14px]">We were founded in 1948 after the war and the world began to be safe we decided <br> to open a small restaurant on the side of the road for the youth and the surrounding <br> community, until finally we had the capital to create the only largest restaurant and <br> so far we have opened 10 branches in Indonesia.</p>
+            <a href="#get-started" class="py-[12px] rounded-full border-2 px-5 ">view menu →</a>
+        </div>
+        <div>
+            <img src="/assets/ger.png" alt="" class="w-[492px] h-[491px]">
+        </div>
+    </section>
+    <section class="static container mx-auto flex gap-5 py-10 w-[1220px] h-[491px]">
+        <div>
+            <img src="/assets/Group 2107.png" alt="" class="h-[569px] h-[491px]">
+        </div>
+        <div class="py-20">
+            <h1 class="py-3 text-[#FF9900]">MaemMamam Restaurant</h1>
+            <h1 class="py-3 font-bold text-[40px]">Fast food and fill your stomach</h1>
+            <p class="py-3">we are a fast food company and we make everyone enjoy any food we serve them <br> because we serve the best for them all.</p>
+                <div class="flex gap-10 py-10">
+                    <a href="#get-started" class="button-primary">Shop Now</a>
+                    <a href="#get-started" class="rounded-full border-2 py-[12px] px-[30px]">About Us</a>
+                </div>
+        </div>
+    </section>
+    <section class="container mx-auto h-[1140px] w-[877px] pt-40 gap-5">
+        <div>
+            <h1 class="text-[#FF9900]">Popular menu</h1>
+            <h1 class="font-bold text-[40px] py-5">Best Popular Menu</h1>
+            <div class="flex justify-between py-5">
+                <p>Find the food you want to buy and get the prize, made from the best ingredients we <br> choose</p>
+                <a href="#get-started" class="rounded-full border-2 px-5 ">view More</a>
+            </div>
+            <div class="grid grid-cols-4 gap-5 rounded-full">
+                <div class="bg-[#16130D] drop-shadow-[0px_4px_15px_0px_(#00000014)] px-3 py-2">
+                    <img src="/assets/Frame 2079.png" alt="">
+                    <img src="/assets/image 9.png" alt="">
+                    <p class="text-[18px] font-bold"> Best Spagheti</p>
+                    <div class="flex justify-between">
+                        <p> withe sauce hot</p>
+                        <p class="font-bold">20$</p>
+                    </div>
+                </div>
+                <div class="bg-[#16130D] drop-shadow-[0px_4px_15px_0px_(#00000014)]">
+                    <img src="/assets/Frame 2079.png" alt="">
+                    <img src="/assets/image 10.png" alt="">
+                    <p class="text-[18px] font-bold">STik belf Special</p>
+                    <div class="flex justify-between">
+                        <p> withe hot chilli</p>
+                        <p class="font-bold">40$</p>
+                    </div>
+                </div>
+                <div class="bg-[#16130D] drop-shadow-[0px_4px_15px_0px_(#00000014)]">
+                    <img src="/assets/Frame 2079.png" alt="">
+                    <img src="/assets/image 11.png" alt="">
+                    <p class="text-[18px] font-bold"> Burger campur Special</p>
+                    <div class="flex justify-between">
+                        <p> withe spich</p>
+                        <p class="font-bold">20$</p>
+                    </div>
+                </div>
+                <div class="bg-[#16130D] drop-shadow-[0px_4px_15px_0px_(#00000014)]">
+                    <img src="/assets/Frame 2079.png" alt="">
+                    <img src="/assets/image 12.png" alt="">
+                    <p class="text-[18px] font-bold">Potato satu satu</p>
+                    <div class="flex justify-between">
+                        <p> withe sausage</p>
+                        <p class="font-bold">20$</p>
+                    </div>
+                </div>
+                <div class="bg-[#16130D] drop-shadow-[0px_4px_15px_0px_(#00000014)]">
+                    <img src="/assets/Frame 2079.png" alt="">
+                    <img src="/assets/image 9.png" alt="">
+                    <p class="text-[18px] font-bold"> Best Spagheti</p>
+                    <div class="flex justify-between">
+                        <p> withe sauce hot</p>
+                        <p class="font-bold">20$</p>
+                    </div>
+                </div>
+                <div class="bg-[#16130D] drop-shadow-[0px_4px_15px_0px_(#00000014)]">
+                    <img src="/assets/Frame 2079.png" alt="">
+                    <img src="/assets/image 10.png" alt="">
+                    <p class="text-[18px] font-bold">STik belf Special</p>
+                    <div class="flex justify-between">
+                        <p> withe hot chilli</p>
+                        <p class="font-bold">40$</p>
+                    </div>
+                </div>
+                <div class="bg-[#16130D] drop-shadow-[0px_4px_15px_0px_(#00000014)]">
+                    <img src="/assets/Frame 2079.png" alt="">
+                    <img src="/assets/image 11.png" alt="">
+                    <p class="text-[18px] font-bold"> Burger campur Special</p>
+                    <div class="flex justify-between">
+                        <p> withe spich</p>
+                        <p class="font-bold">20$</p>
+                    </div>
+                </div>
+                <div class="bg-[#16130D] drop-shadow-[0px_4px_15px_0px_(#00000014)]">
+                    <img src="/assets/Frame 2079.png" alt="">
+                    <img src="/assets/image 12.png" alt="">
+                    <p class="text-[18px] font-bold">Potato satu satu</p>
+                    <div class="flex justify-between">
+                        <p> withe sausage</p>
+                        <p class="font-bold">20$</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container mx-auto rounded-full text-center w-[1125px] h-[414px] py-10">
+        <h1 class="text-[#FF9900]">Order Now</h1>
+        <h1 class="font-bold text-[40px]">Order Now and Take GiveAway</h1>
+        <p>Order and get the prize, we will give a gift to those of you who are lucky to get something <br> interesting from us</p>
+        <a href="#get-started" class="button-primary">Order Now</a>
+    </section>
+    <section class="container mx-auto w-[1440px] h-[457px]">
+        <div class="flex">
+        <img src="/assets/ic_round-table-restaurant.png" alt="">
+        <p class="font-bold">MaemMamam</p>
+    </div>
+        <div class="flex gap-10">
+            <div>
+            <p> were founded in 1948 after the war and the <br> world began to be safe we decided to open a <br> small restaurant on the side of the road for the <br> youth and the surrounding community.</p>
+                 <div class="flex gap-5">
+                    <img src="/assets/Group 85.png" alt="">
+                    <img src="/assets/Group 86.png" alt="">
+                    <img src="/assets/Group 87.png" alt="">
+                    <img src="/assets/Group 88.png" alt="">
+                 </div>
+            </div>
+            <div>
+                <p class="text-16 font-bold">Navigation</p>
+                <ul>
+                    <li>Home</li>
+                    <li>Info</li>
+                    <li>News</li>
+                    <li>About us</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div>
+                <p class="text-16 font-bold">Address</p>
+                <p>Jl. Al-Muwahhiddin, Karangtengah, Cibadak, Kab. Sukabumi.
+                    Sukabumi 43351</p>
+            </div>
+            <div>
+                <p class="text-16 font-bold">Contact</p>
+                <div class="flex">
+                    <img src="/assets/ant-design_phone-filled.png" alt="">
+                    <p>(0266) 532510
+                        </p>
+                </div>
+                <div class="flex">
+                    <img src="/assets/clarity_email-solid.png" alt="">
+                    <p>smkn1_cibadak@yahoo.co.id</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+</body>
+</html>
